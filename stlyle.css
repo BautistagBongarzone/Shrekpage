@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Moul';
+    
+}
+
+body{
+    background-color:#a1c349ff;
+
+}
+nav{
+    background-color:#cad593ff;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.contenedor{
+    position:sticky;
+    top: 0;
+}
+
+
+nav .navegación li{
+    display: inline-block;
+    justify-content:center;
+    background-color: #cad593ff;
+    padding: 0 40px;
+    list-style: none;
+    font-family: 'Moul';
+    position: sticky;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #243010ff;
+    display: block;
+    padding: 10px;
+   
+}
+
+    
+
+
+
+.navegación  a:hover{
+    background-color:#ffffb3ff;
+    transform: scale(1.1);
+    transition: 0.2s;
+    border-radius: 10px;
+    content: 5px 20px;
+    
+    
+}
+
+header #titulo{
+    background-color: #243010ff;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    height: 100px;
+    transition: 0.2s;
+}
+
+.poster{
+    background-color: aliceblue;
+    display: flex;
+    justify-content:flex-start;
+    margin: 20px;
+    height: 400px;
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.sinopsis{
+    display: flex;
+    justify-content:center ;
+    margin:10px;
+    margin-top: 20px;
+    font-family: 'Hammersmith One';
+}
+p .sinopsis::first-letter{
+    font-family:  'Hammersmith One';
+    font-size: 40px;
+    color: darkslategray;
+}
+.reparto{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.footer{
+    background-color:#243010ff;
+    padding: 20px;
+}
