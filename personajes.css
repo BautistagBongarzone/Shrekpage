@@ -4,16 +4,20 @@
   padding: 0%;
   font-family: "Moul";
 }
-
+/*BODY*/
 body {
   background-color: #a1c349ff;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   font-weight: "Moul";
   letter-spacing: 0.03;
   line-height: 1.6;
+  border: 10px solid red;
+  /*position: relative;*/
+  min-width: 100vh;
+  display: grid;
 }
-
+/*HEADER*/
 .title {
   text-align: center;
   font-size: 40px;
@@ -65,10 +69,14 @@ header #titulo {
   transition: 0.2s;
 }
 
+main {
+  height: 100vh;
+  min-height: 100vh;
+}
 .container {
   width: 100%;
   max-width: 1200px;
-  height: 420px;
+  height: 80vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -110,4 +118,77 @@ header #titulo {
   font-weight: 600;
   text-decoration: none;
   color: #adff2f;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  /* left: 0; */
+  padding: 2rem 8%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+.social-icons-container,
+.footer-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #adff2f;
+  background-image: url(//Shrekpage/);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.social-icon:hover {
+  background-color: #006400;
+  filter: invert(1);
+}
+.social-icon:nth-of-type(2) {
+  background-image: url();
+}
+.social-icon:nth-of-type(3) {
+  background-image: url();
+}
+.social-icon:nth-of-type(4) {
+  background-image: url();
+}
+.footer-menu-container {
+  list-style-type: none;
+  color: rgb(165, 66, 66);
+  font-size: 18px;
+}
+.menu-item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-item:hover {
+  opacity: 1;
+}
+
+.copyright {
+  color: #adff2f;
+  opacity: 0.3;
+  text-align: center;
 }
