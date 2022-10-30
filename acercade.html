@@ -8,63 +8,88 @@
     <link rel="stylesheet" href="acercade.css">
     <title>Acerca de...</title>
   </head>
-  <body>
+   <body>
     <header>
-      <h1 id="titulo"><img src="imagenes/pagina inicio/shrek tutilo.webp" alt="shrek" ></h1>
+      <h1 id="titulo"><img src="imagenes/shrek.png" alt="shrek" ></h1>
     </header> 
       <div class="contenedor">
     <nav>  
       <ul class="navegación">
-         <li><a href="index.html">Inicio</a></li>
-         <li><a href="personajes.html">Personajes</a></li>
-         <li><a href="curiosidades.html">Curiosidades</a></li>
-         <li><a href="acercade.html">Acerca de</a></li>
-     </ul>
-   </nav>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="personajes.html">Personajes</a></li>
+          <li><a href="curiosidades.html">Curiosidades</a></li>
+          <li><a href="acercade.html">Acerca de</a></li>
+      </ul>
+    </nav>
         </div>
-      <img src="" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, mollitia
-        non ipsam odit nobis tenetur magni deleniti, ullam totam adipisci ea
-        illo assumenda quam ad dolores, consequuntur laborum! Temporibus,
-        voluptates?
-      </p>
-      <h6>cantacto</h6>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-    </div>
 
-    <div>
-      <img src="" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, mollitia
-        non ipsam odit nobis tenetur magni deleniti, ullam totam adipisci ea
-        illo assumenda quam ad dolores, consequuntur laborum! Temporibus,
-        voluptates?
-      </p>
-      <h6>cantacto</h6>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-    </div>
 
-    <div>
-      <img src="" alt="" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, mollitia
-        non ipsam odit nobis tenetur magni deleniti, ullam totam adipisci ea
-        illo assumenda quam ad dolores, consequuntur laborum! Temporibus,
-        voluptates?
-      </p>
-      <h6>cantacto</h6>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-    </div>
-    
-    <div class="footer">
+
+      <div class="cards-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+              <img src="imagenes/burrocard.jpg" alt="burro" style="width: 320px; height: 504px; border-radius:20px;">
+              </div>
+
+                <div class="flip-card-back">
+                    <h1>Pogonza Luis</h1>
+                    <p>Aprendiendo desarrollo web</p>
+                    <p>Perdi la motivacion diseñando mi parte</p>
+                </div>
+          </div>
+        </div>
+
+        <!---segunda tarjeta-->
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+                <img src="imagenes/shrekcard.jpg" alt="shrek" style="width: 320px; height: 504px; border-radius:20px;">
+              </div>
+
+                <div class="flip-card-back">
+                    <h1>Carrazana Jonatan</h1>
+                    <p>Aprendiendo desarrollo web</p>
+                    <p>Perdi la motivacion diseñando mi parte</p>
+                </div>
+          </div>
+        </div>
+
+        <!--tercer tarjeta-->
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+
+            <div class="flip-card-front">
+                <img src="imagenes/gatocard.jpg" alt="gato" style="width: 320px; height: 504px; border-radius:20px;">
+              </div>
+
+                <div class="flip-card-back">
+                    <h1>Garcia Bongarzone Bautista</h1>
+                    <p>Aprendiendo desarrollo web</p>
+                    <p>Perdi la motivacion diseñando mi parte</p>
+                </div>
+          </div>
+        </div>
+
+      </div>
+      <!--FIN CARD -->
+      
+      <!--FORMULARIO-->
+      <section class="form-register">
+    <h4>Formulario Registro, si quiere formar parte de nosotros</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </section>
+      
       <footer>aca va el footer</footer>
-    </div>
   </body>
 </html>
